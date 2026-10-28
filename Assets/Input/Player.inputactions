@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Interact",
+            "id": "48d33d1e-9b05-4c1b-a220-cb2d5174f589",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "46236d54-1ccc-4b62-a662-8b62a902a3a4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Flag",
+                    "type": "Button",
+                    "id": "1ef0dce2-f84f-4b8a-8556-680bfbcb16ff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "14268dda-6112-4bc8-8a2b-94fede0d33f4",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bff22333-ae22-4780-9abc-0e052565197d",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
